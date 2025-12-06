@@ -1,3 +1,6 @@
+"engines": {
+  "node": "18.x"
+}
 {
   "name": "cryptopulse",
   "private": true,
