@@ -1,5 +1,11 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "framework": "vite",
+  "installCommand": "npm install --legacy-peer-deps",
+  "functions": {
+    "api/.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
